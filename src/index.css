@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+@layer base{
+    :root{
+        --lightRed: 0deg 100% 67%;
+        --orangeyYellow: 39deg 100% 56%;
+        --greenTeal: 166deg 100% 37%;
+        --cobaltBlue: 234deg 85% 45%;
+        --lightSlateBlue: 252deg 100% 67%;
+        --lightRoyalBlue: 241deg 81% 54%;
+        --violetBlue: 256 72% 46%;
+        --persianBlue: 241 72% 46%;
+        --White: 0 0% 100%;
+        --paleBlue: 221 100% 96%;
+        --lightLavender: 241 100% 89%;
+        --darkGrayBlue: 224 30% 27%;
+    }
+    .primaryBtn{
+        @apply py-2 px-6 pt-10 mt-2 bg-blue-600 rounded-2xl
+    }
+}
